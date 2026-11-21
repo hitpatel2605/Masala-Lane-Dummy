@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Masala Lane Kitchen | Authentic Indian Restaurant in Austin, TX</title>
+  <meta name="description" content="Authentic Indian flavors made fresh daily in Austin, Texas. Slow-simmered regional curries, tandoor clay-oven specialties, and vibrant vegan and vegetarian options on South Congress.">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="Masala Lane Kitchen | Authentic Indian Restaurant in Austin, TX">
+  <meta property="og:description" content="Authentic Indian flavors, made fresh daily. Savor regional heritage recipes, freshly roasted spices, and clay-oven tandoor delicacies in Austin, Texas.">
+  <meta property="og:type" content="restaurant">
+  <meta property="og:image" content="images/hero.jpg">
+
+  <!-- Google Fonts: Playfair Display & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Schema.org JSON-LD Structured Data for LocalBusiness & Restaurant -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["Restaurant", "LocalBusiness"],
+    "name": "Masala Lane Kitchen",
+    "image": "images/hero.jpg",
+    "description": "Authentic Indian dining celebrating slow-simmered heritage curries, clay-oven tandoor dishes, and scratch-ground spices in Austin, Texas.",
+    "servesCuisine": "Indian",
+    "priceRange": "$$",
+    "telephone": "+1-512-555-0194",
+    "email": "hello@masalalanekitchen.com",
+    "url": "index.html",
+    "menu": "menu.html",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "1408 South Congress Ave",
+      "addressLocality": "Austin",
+      "addressRegion": "TX",
+      "postalCode": "78704",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 30.2520,
+      "longitude": -97.7495
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+        "opens": "11:30",
+        "closes": "21:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Friday",
+        "opens": "11:30",
+        "closes": "22:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "12:00",
+        "closes": "22:30"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Sunday",
+        "opens": "12:00",
+        "closes": "21:00"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <!-- Accessible Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Sticky Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="Masala Lane Kitchen Home">
+        <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 2c1.5 2 3.5 3.5 3.5 6a3.5 3.5 0 0 1-7 0c0-2.5 2-4 3.5-6z"></path>
+          <path d="M5 14a7 7 0 0 0 14 0"></path>
+          <path d="M12 14v7"></path>
+          <path d="M8 21h8"></path>
+        </svg>
+        <div class="brand-text">
+          <span class="brand-name">Masala Lane</span>
+          <span class="brand-sub">Kitchen &bull; Austin, TX</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="menu.html" class="nav-link">Menu</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta">
+        <a href="contact.html#reserve" class="btn btn-primary btn-sm">Reserve a table</a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-nav" id="mobile-nav" aria-label="Mobile Navigation">
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" class="mobile-nav-link active">Home</a></li>
+        <li><a href="menu.html" class="mobile-nav-link">Full Menu</a></li>
+        <li><a href="about.html" class="mobile-nav-link">Our Story &amp; Values</a></li>
+        <li><a href="contact.html" class="mobile-nav-link">Contact &amp; Hours</a></li>
+      </ul>
+      <div class="mobile-nav-footer">
+        <a href="contact.html#reserve" class="btn btn-primary">Reserve a table</a>
+        <a href="tel:+15125550194" class="mobile-nav-phone">&phone; (512) 555-0194</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span>&#10024; Austin, Texas &bull; South Congress</span>
+          </div>
+          <h1 id="hero-heading" class="hero-title">Authentic Indian flavors, made fresh daily</h1>
+          <p class="hero-subheading">Slow-cooked heritage curries, clay-oven tandoor specialties, and freshly stone-ground spices in the heart of Austin.</p>
+          <div class="hero-actions">
+            <a href="menu.html" class="btn btn-primary">View menu</a>
+            <a href="contact.html#reserve" class="btn btn-outline-light">Reserve a table</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <div class="hero-image-wrapper">
+            <img src="images/hero.jpg" alt="Vibrant feast of Indian curries in copper bowls with fresh naan and spices at Masala Lane Kitchen" class="hero-image" width="1200" height="750">
+          </div>
+          <div class="hero-floating-card">
+            <div class="floating-icon" aria-hidden="true">&check;</div>
+            <div>
+              <p style="font-weight:700; font-size:0.95rem; margin-bottom:2px;">100% Scratch-Cooked</p>
+              <p style="font-size:0.82rem; color:var(--color-charcoal-muted);">Whole spices roasted every morning</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Three Highlight Cards Section -->
+    <section class="section section-cream" aria-labelledby="highlights-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">The Masala Lane Difference</span>
+          <h2 id="highlights-heading">Crafted with Patience, Rooted in Tradition</h2>
+          <p class="section-desc">We honor centuries-old Indian culinary craftsmanship with zero shortcuts, bringing bold honest warmth to every table.</p>
+        </div>
+
+        <div class="highlights-grid">
+          <!-- Card 1 -->
+          <article class="highlight-card">
+            <div class="highlight-icon-box" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </div>
+            <h3 class="highlight-title">Family recipes</h3>
+            <p class="highlight-desc">Passed down through three generations from Amritsar to Mumbai, each heirloom recipe is slow-simmered to extract deep, nuanced warmth.</p>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="highlight-card">
+            <div class="highlight-icon-box" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="m4.93 4.93 4.24 4.24"></path>
+                <path d="m14.83 9.17 4.24-4.24"></path>
+                <path d="m14.83 14.83 4.24 4.24"></path>
+                <path d="m9.17 14.83-4.24 4.24"></path>
+                <circle cx="12" cy="12" r="4"></circle>
+              </svg>
+            </div>
+            <h3 class="highlight-title">Fresh spices</h3>
+            <p class="highlight-desc">We never use pre-packaged powder mixes. Green cardamom, star anise, cumin, and coriander are hand-toasted and stone-ground in our kitchen every dawn.</p>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="highlight-card">
+            <div class="highlight-icon-box green" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2v20"></path>
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+              </svg>
+            </div>
+            <h3 class="highlight-title">Vegetarian and vegan options</h3>
+            <p class="highlight-desc">Over half our menu celebrates vibrant plant-forward cooking, prepared in dedicated cookware with certified organic lentils, fresh produce, and house-made paneer.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Chef's Favorites Section -->
+    <section class="section section-tint" aria-labelledby="favorites-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Signature Selections</span>
+          <h2 id="favorites-heading">Chef's Favorites</h2>
+          <p class="section-desc">Our most celebrated dishes, perfected over decades and roasted over glowing mesquite tandoor coals.</p>
+        </div>
+
+        <div class="dishes-grid">
+          <!-- Dish 1 -->
+          <article class="dish-card">
+            <div class="dish-media">
+              <img src="images/butter-chicken.jpg" alt="Old Delhi Butter Chicken in copper bowl with fresh cream and coriander" class="dish-img" width="800" height="560" loading="lazy">
+              <span class="dish-badge">Guest Favorite</span>
+            </div>
+            <div class="dish-body">
+              <div class="dish-header">
+                <h3 class="dish-name">Old Delhi Butter Chicken</h3>
+                <span class="dish-price">$19.50</span>
+              </div>
+              <p class="dish-desc">Slow-simmered tender chicken in a velvety smoked tomato, fenugreek, and cultured butter reduction.</p>
+              <div class="dish-tags">
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 2 -->
+          <article class="dish-card">
+            <div class="dish-media">
+              <img src="images/paneer-lababdar.jpg" alt="Smoked Paneer Lababdar with charred cottage cheese in rich cashew sauce" class="dish-img" width="800" height="560" loading="lazy">
+              <span class="dish-badge">Chef's Pride</span>
+            </div>
+            <div class="dish-body">
+              <div class="dish-header">
+                <h3 class="dish-name">Smoked Paneer Lababdar</h3>
+                <span class="dish-price">$17.50</span>
+              </div>
+              <p class="dish-desc">Charred artisan cottage cheese folded into a creamy spiced onion, cashew, and coriander gravy.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 3 -->
+          <article class="dish-card">
+            <div class="dish-media">
+              <img src="images/biryani.jpg" alt="Hyderabadi Dum Biryani with aromatic saffron basmati and mint" class="dish-img" width="800" height="560" loading="lazy">
+              <span class="dish-badge">Slow Dum Cooked</span>
+            </div>
+            <div class="dish-body">
+              <div class="dish-header">
+                <h3 class="dish-name">Hyderabadi Dum Biryani</h3>
+                <span class="dish-price">$21.00</span>
+              </div>
+              <p class="dish-desc">Fragrant aged basmati rice and marinated spiced lamb sealed and slow-cooked in a dough-sealed clay pot.</p>
+              <div class="dish-tags">
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+                <span class="badge badge-spicy">🌶️ Medium Spicy</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 4 -->
+          <article class="dish-card">
+            <div class="dish-media">
+              <img src="images/amritsari-fish.jpg" alt="Crispy Amritsari Fish Tikka with roasted spices and lemon wedges" class="dish-img" width="800" height="560" loading="lazy">
+              <span class="dish-badge">Tandoor Special</span>
+            </div>
+            <div class="dish-body">
+              <div class="dish-header">
+                <h3 class="dish-name">Crispy Amritsari Fish Tikka</h3>
+                <span class="dish-price">$18.50</span>
+              </div>
+              <p class="dish-desc">Wild-caught fish fillets coated in carom seed, chickpea flour, and Kashmiri chili, pan-crisped to golden perfection.</p>
+              <div class="dish-tags">
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+                <span class="badge badge-spicy">🌶️ Mildly Spicy</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 5 -->
+          <article class="dish-card">
+            <div class="dish-media">
+              <img src="images/dal-makhani.jpg" alt="24-hour slow simmered smoky dal makhani with fresh ginger" class="dish-img" width="800" height="560" loading="lazy">
+              <span class="dish-badge">Heritage Recipe</span>
+            </div>
+            <div class="dish-body">
+              <div class="dish-header">
+                <h3 class="dish-name">Smoky Dal Makhani</h3>
+                <span class="dish-price">$15.50</span>
+              </div>
+              <p class="dish-desc">Black lentils and red kidney beans slow-simmered for 24 hours with vine-ripened tomatoes and gentle ghee.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Dish 6 -->
+          <article class="dish-card">
+            <div class="dish-media">
+              <img src="images/gulab-jamun.jpg" alt="Warm Gulab Jamun with pistachio rose kulfi dessert plate" class="dish-img" width="800" height="560" loading="lazy">
+              <span class="dish-badge">House Dessert</span>
+            </div>
+            <div class="dish-body">
+              <div class="dish-header">
+                <h3 class="dish-name">Cardamom Rose Gulab Jamun</h3>
+                <span class="dish-price">$9.50</span>
+              </div>
+              <p class="dish-desc">Warm golden milk dumplings infused with green cardamom paired with dense, slow-reduced pistachio and rosewater kulfi.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem;">
+          <a href="menu.html" class="btn btn-primary">Explore our full menu &rarr;</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section class="section section-cream" aria-labelledby="reviews-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">Guest Love</span>
+          <h2 id="reviews-heading">Words from Our Austin Guests</h2>
+          <p class="section-desc">We are honored to welcome neighbors, travelers, and food lovers to our dining room every evening.</p>
+        </div>
+
+        <div class="reviews-grid">
+          <!-- Review 1 -->
+          <article class="review-card">
+            <div class="review-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote class="review-quote">
+              &ldquo;The Butter Chicken and garlic naan took me straight back to my grandmother's kitchen in Punjab. Hands down the most authentic, deeply layered Indian dining in Austin.&rdquo;
+            </blockquote>
+            <div>
+              <p class="review-author">Elena Rostova</p>
+              <p class="review-badge">South Congress Local &bull; Verified Diner</p>
+            </div>
+          </article>
+
+          <!-- Review 2 -->
+          <article class="review-card">
+            <div class="review-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote class="review-quote">
+              &ldquo;Incredible vegan variety! The roasted baingan bharta and lentil dal were bursting with complex, fresh-ground spice layers without feeling heavy or oily. A true culinary gem.&rdquo;
+            </blockquote>
+            <div>
+              <p class="review-author">Marcus Vance</p>
+              <p class="review-badge">Austin Food Critic &bull; Verified Diner</p>
+            </div>
+          </article>
+
+          <!-- Review 3 -->
+          <article class="review-card">
+            <div class="review-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <blockquote class="review-quote">
+              &ldquo;We hosted our anniversary dinner here. The service was heartfelt, the tandoor prawns were extraordinary, and the amber lighting made it so intimate. We will be regulars for life.&rdquo;
+            </blockquote>
+            <div>
+              <p class="review-author">Priya &amp; David Lin</p>
+              <p class="review-badge">Zilker Residents &bull; Verified Diner</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hours & Location Block with Google Map Placeholder -->
+    <section class="section section-tint" aria-labelledby="location-heading">
+      <div class="container">
+        <div class="location-grid">
+          <div>
+            <span class="section-eyebrow">Visit Us</span>
+            <h2 id="location-heading">Hours &amp; Location</h2>
+            <p class="section-desc">Join us on bustling South Congress for cozy indoor dining, shaded patio seating, and takeout pickups.</p>
+
+            <table class="hours-table" aria-label="Restaurant Opening Hours">
+              <thead>
+                <tr style="text-align:left; border-bottom: 2px solid var(--color-cream-border);">
+                  <th scope="col" style="padding-bottom:0.5rem; font-weight:700;">Day</th>
+                  <th scope="col" style="padding-bottom:0.5rem; text-align:right; font-weight:700;">Service Hours</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Monday &ndash; Thursday</td>
+                  <td>11:30 AM &ndash; 2:30 PM, 5:00 PM &ndash; 9:30 PM</td>
+                </tr>
+                <tr>
+                  <td>Friday</td>
+                  <td>11:30 AM &ndash; 2:30 PM, 5:00 PM &ndash; 10:30 PM</td>
+                </tr>
+                <tr>
+                  <td>Saturday</td>
+                  <td>12:00 PM &ndash; 10:30 PM (All Day)</td>
+                </tr>
+                <tr>
+                  <td>Sunday</td>
+                  <td>12:00 PM &ndash; 9:00 PM (All Day)</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <div class="contact-quick-links">
+              <a href="https://maps.google.com/?q=1408+South+Congress+Ave+Austin+TX+78704" target="_blank" rel="noopener noreferrer" class="quick-link-item">
+                <svg class="quick-link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <span><strong>1408 South Congress Ave</strong>, Austin, TX 78704</span>
+              </a>
+              <a href="tel:+15125550194" class="quick-link-item">
+                <svg class="quick-link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+                <span><strong>(512) 555-0194</strong> &bull; Tap to call</span>
+              </a>
+            </div>
+
+            <div style="margin-top: 2rem;">
+              <a href="contact.html#reserve" class="btn btn-primary">Book your table now</a>
+            </div>
+          </div>
+
+          <!-- Embedded Google Map iframe Placeholder for Austin, TX -->
+          <div class="map-wrapper">
+            <iframe
+              class="map-iframe"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3446.425126868512!2d-97.75171728488!3d30.25200238180638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b4e2f9f1f0a1%3A0x6b83f3e2b1!2sSouth%20Congress%20Ave%2C%20Austin%2C%20TX!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+              title="Masala Lane Kitchen Google Map location in Austin, Texas"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Catering and Private Events Banner -->
+        <div class="catering-banner">
+          <span class="section-eyebrow" style="color:var(--color-saffron);">Private Dining &amp; Gatherings</span>
+          <h2>Host Your Next Event with Masala Lane</h2>
+          <p>From office luncheons and festive weddings to intimate backyard celebrations, we provide authentic, full-service catering and custom live chaat stations across Central Texas.</p>
+          <a href="contact.html#catering" class="btn btn-primary">Inquire about catering &rarr;</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Column -->
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" aria-label="Masala Lane Kitchen">
+            <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 2c1.5 2 3.5 3.5 3.5 6a3.5 3.5 0 0 1-7 0c0-2.5 2-4 3.5-6z"></path>
+              <path d="M5 14a7 7 0 0 0 14 0"></path>
+              <path d="M12 14v7"></path>
+              <path d="M8 21h8"></path>
+            </svg>
+            <div class="brand-text">
+              <span class="brand-name" style="color:#FFFFFF;">Masala Lane</span>
+              <span class="brand-sub">Kitchen &bull; Austin, TX</span>
+            </div>
+          </a>
+          <p>Slow-simmered regional Indian flavors, clay-oven tandoor craft, and fresh stone-ground spices on South Congress in Austin, Texas.</p>
+          <div class="social-links" aria-label="Social Media Links">
+            <a href="#" class="social-icon-btn" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="#" class="social-icon-btn" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+            <a href="#" class="social-icon-btn" aria-label="Yelp">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <p class="footer-title">Navigation</p>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Full Menu</a></li>
+            <li><a href="about.html">About &amp; Story</a></li>
+            <li><a href="contact.html#reserve">Reservations</a></li>
+            <li><a href="contact.html#catering">Catering Inquiry</a></li>
+          </ul>
+        </div>
+
+        <!-- Hours Summary -->
+        <div>
+          <p class="footer-title">Service Hours</p>
+          <div class="footer-hours-list">
+            <p><strong>Mon &ndash; Thu:</strong><br>11:30 AM &ndash; 2:30 PM<br>5:00 PM &ndash; 9:30 PM</p>
+            <p style="margin-top:0.4rem;"><strong>Fri &ndash; Sat:</strong><br>11:30 AM &ndash; 10:30 PM</p>
+            <p style="margin-top:0.4rem;"><strong>Sunday:</strong><br>12:00 PM &ndash; 9:00 PM</p>
+          </div>
+        </div>
+
+        <!-- Contact Column -->
+        <div>
+          <p class="footer-title">Find Us</p>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>1408 South Congress Ave<br>Austin, TX 78704</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <a href="tel:+15125550194" style="color:#FFFFFF; font-weight:600;">(512) 555-0194</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <a href="mailto:hello@masalalanekitchen.com" style="color:#D6CCC0;">hello@masalalanekitchen.com</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Masala Lane Kitchen. All rights reserved.</p>
+        <p class="agency-credit">Website by <a href="#" target="_blank" rel="noopener">Hector Tech Labs</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

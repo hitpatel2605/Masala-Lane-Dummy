@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | Masala Lane Kitchen - Austin, TX</title>
+  <meta name="description" content="Explore the authentic menu of Masala Lane Kitchen in Austin, TX. Featuring scratch-cooked Starters, Curries, Tandoor specialties, Breads, Dum Biryanis, Desserts and Drinks.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Menu | Masala Lane Kitchen - Austin, TX">
+  <meta property="og:description" content="Explore our scratch-cooked menu with realistic pricing, dietary tags for vegetarian, vegan, and gluten-free diets, and fresh stone-ground spice profiles.">
+  <meta property="og:image" content="images/hero.jpg">
+
+  <!-- Google Fonts: Playfair Display & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Sticky Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="Masala Lane Kitchen Home">
+        <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M12 2c1.5 2 3.5 3.5 3.5 6a3.5 3.5 0 0 1-7 0c0-2.5 2-4 3.5-6z"></path>
+          <path d="M5 14a7 7 0 0 0 14 0"></path>
+          <path d="M12 14v7"></path>
+          <path d="M8 21h8"></path>
+        </svg>
+        <div class="brand-text">
+          <span class="brand-name">Masala Lane</span>
+          <span class="brand-sub">Kitchen &bull; Austin, TX</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="menu.html" class="nav-link active">Menu</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta">
+        <a href="contact.html#reserve" class="btn btn-primary btn-sm">Reserve a table</a>
+      </div>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer Navigation -->
+    <div class="mobile-nav" id="mobile-nav" aria-label="Mobile Navigation">
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+        <li><a href="menu.html" class="mobile-nav-link active">Full Menu</a></li>
+        <li><a href="about.html" class="mobile-nav-link">Our Story &amp; Values</a></li>
+        <li><a href="contact.html" class="mobile-nav-link">Contact &amp; Hours</a></li>
+      </ul>
+      <div class="mobile-nav-footer">
+        <a href="contact.html#reserve" class="btn btn-primary">Reserve a table</a>
+        <a href="tel:+15125550194" class="mobile-nav-phone">&phone; (512) 555-0194</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sticky Category Navigation Bar on Mobile & Desktop -->
+  <nav class="menu-nav-sticky" aria-label="Menu Categories Filter">
+    <div class="container">
+      <div class="menu-filter-list" role="tablist">
+        <button class="filter-btn active" data-category="all" role="tab" aria-selected="true" aria-controls="menu-container">All Dishes</button>
+        <button class="filter-btn" data-category="starters" role="tab" aria-selected="false">Starters</button>
+        <button class="filter-btn" data-category="curries" role="tab" aria-selected="false">Curries</button>
+        <button class="filter-btn" data-category="tandoor" role="tab" aria-selected="false">Tandoor</button>
+        <button class="filter-btn" data-category="breads" role="tab" aria-selected="false">Breads</button>
+        <button class="filter-btn" data-category="biryani" role="tab" aria-selected="false">Rice &amp; Biryani</button>
+        <button class="filter-btn" data-category="desserts" role="tab" aria-selected="false">Desserts</button>
+        <button class="filter-btn" data-category="drinks" role="tab" aria-selected="false">Drinks</button>
+      </div>
+    </div>
+  </nav>
+
+  <main id="main-content">
+    <!-- Menu Intro Section -->
+    <section class="section section-cream" style="padding-bottom: 2rem;">
+      <div class="container">
+        <div class="section-header" style="margin-bottom: 2rem;">
+          <span class="section-eyebrow">Our Culinary Offerings</span>
+          <h1>The Seasonal Menu</h1>
+          <p class="section-desc">Every curry is slow-cooked from scratch, every tandoori skewer is roasted to order, and all breads are slapped by hand against the clay walls of our 800&deg;F tandoor.</p>
+        </div>
+
+        <!-- Dietary Badges Legend -->
+        <div class="dietary-legend" aria-label="Dietary Badges Key">
+          <div class="legend-item">
+            <span class="badge badge-veg">V</span>
+            <span>Vegetarian</span>
+          </div>
+          <div class="legend-item">
+            <span class="badge badge-vegan">VG</span>
+            <span>Vegan</span>
+          </div>
+          <div class="legend-item">
+            <span class="badge badge-gf">GF</span>
+            <span>Gluten-Free</span>
+          </div>
+          <div class="legend-item">
+            <span class="badge badge-spicy">🌶️</span>
+            <span>Spicy / Mild Spice</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Categories Sections -->
+    <section class="section section-cream" style="padding-top: 0;" id="menu-container">
+      <div class="container">
+
+        <!-- CATEGORY 1: STARTERS -->
+        <div class="menu-category-section" data-category="starters" id="category-starters">
+          <h2 class="category-title">
+            <span>Starters &amp; Small Plates</span>
+            <span class="category-count">6 items</span>
+          </h2>
+          <div class="menu-items-grid">
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Amritsari Samosa Chaat</h3>
+                <span class="menu-item-price">$11.50</span>
+              </div>
+              <p class="menu-item-desc">Golden flaky pastry filled with cumin-spiced potatoes and green peas, crushed over warm chickpea ragda with yogurt, tamarind, and mint chutney.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Kurkuri Bhindi Crisps</h3>
+                <span class="menu-item-price">$9.50</span>
+              </div>
+              <p class="menu-item-desc">Julienne baby okra dusted with dried mango amchur, roasted carom, and chickpea flour, flash-crisped to a delicate savory crunch.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+                <span class="badge badge-vegan">VG &bull; Vegan</span>
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Peshawari Paneer Tikka Bites</h3>
+                <span class="menu-item-price">$13.00</span>
+              </div>
+              <p class="menu-item-desc">Artisan cottage cheese cubes steeped in hung curd, yellow mustard oil, and crushed coriander seeds, seared on iron skewers.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Gunpowder Spiced Calamari</h3>
+                <span class="menu-item-price">$14.50</span>
+              </div>
+              <p class="menu-item-desc">Coastal squid rings crisped in rice batter and tossed with fiery South Indian lentil gunpowder, curry leaves, and lime zest.</p>
+              <div class="dish-tags">
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+                <span class="badge badge-spicy">🌶️ Medium Spicy</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Dahi Ke Kebab</h3>
+                <span class="menu-item-price">$11.00</span>
+              </div>
+              <p class="menu-item-desc">Melt-in-your-mouth pan-seared patties of hung Greek yogurt, grated paneer, fresh ginger, and green chilies with mint dipping sauce.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Kashmiri Seekh Kebab</h3>
+                <span class="menu-item-price">$15.00</span>
+              </div>
+              <p class="menu-item-desc">Pasture-raised minced lamb infused with green cardamom, mace, garlic, and fresh mint, charred over live tandoor embers.</p>
+              <div class="dish-tags">
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CATEGORY 2: CURRIES -->
+        <div class="menu-category-section" data-category="curries" id="category-curries">
+          <h2 class="category-title">
+            <span>Heritage Curries</span>
+            <span class="category-count">6 items</span>
+          </h2>
+          <div class="menu-items-grid">
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Old Delhi Butter Chicken</h3>
+                <span class="menu-item-price">$19.50</span>
+              </div>
+              <p class="menu-item-desc">Tender charred tandoori chicken simmered in a velvety smoked tomato, fenugreek, and cultured butter reduction.</p>
+              <div class="dish-tags">
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Smoked Paneer Lababdar</h3>
+                <span class="menu-item-price">$17.50</span>
+              </div>
+              <p class="menu-item-desc">Artisan cottage cheese cubes folded into a creamy spiced onion, cashew nut, and crushed coriander tomato gravy.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Rogan Josh Deewani</h3>
+                <span class="menu-item-price">$22.00</span>
+              </div>
+              <p class="menu-item-desc">Slow-braised lamb shank in a deep aromatic broth of Kashmiri chilies, ratan jot bark, fennel seeds, and green cardamom.</p>
+              <div class="dish-tags">
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+                <span class="badge badge-spicy">🌶️ Mildly Spicy</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Kochi Coconut Prawn Curry</h3>
+                <span class="menu-item-price">$22.50</span>
+              </div>
+              <p class="menu-item-desc">Wild-caught gulf prawns simmered in fresh first-press coconut milk, tart kokum fruit, crackled black mustard seeds, and curry leaves.</p>
+              <div class="dish-tags">
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Baingan Ka Bharta</h3>
+                <span class="menu-item-price">$16.00</span>
+              </div>
+              <p class="menu-item-desc">Fire-roasted Japanese eggplant mashed and tempered with caramelized red onions, sweet vine tomatoes, and ginger juliennes.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+                <span class="badge badge-vegan">VG &bull; Vegan</span>
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">24-Hour Smoky Dal Makhani</h3>
+                <span class="menu-item-price">$15.50</span>
+              </div>
+              <p class="menu-item-desc">Black lentils and red kidney beans slow-simmered for 24 hours with vine-ripened tomatoes and gentle cultured ghee.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CATEGORY 3: TANDOOR -->
+        <div class="menu-category-section" data-category="tandoor" id="category-tandoor">
+          <h2 class="category-title">
+            <span>Clay-Oven Tandoor</span>
+            <span class="category-count">6 items</span>
+          </h2>
+          <div class="menu-items-grid">
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Tandoori Murgh Tikka</h3>
+                <span class="menu-item-price">$18.00</span>
+              </div>
+              <p class="menu-item-desc">Free-range chicken thighs steeped for 18 hours in mustard oil, Kashmiri degi mirch, Greek yogurt, and lemon juice.</p>
+              <div class="dish-tags">
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+                <span class="badge badge-spicy">🌶️ Medium Spicy</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Bhatti Ka Paneer Tikka</h3>
+                <span class="menu-item-price">$16.50</span>
+              </div>
+              <p class="menu-item-desc">Thick-cut artisan paneer steaks skewered with bell peppers and onions, marinated in stone-ground garam masala and dried pomegranate.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Crispy Amritsari Fish Tikka</h3>
+                <span class="menu-item-price">$19.50</span>
+              </div>
+              <p class="menu-item-desc">Fresh sea bass fillets marinated in roasted carom seeds, fresh ginger, and chickpea flour, pan-crisped with mint chutney.</p>
+              <div class="dish-tags">
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Malai Reshmi Kebab</h3>
+                <span class="menu-item-price">$18.50</span>
+              </div>
+              <p class="menu-item-desc">Tender chicken supreme medallions infused with cream cheese, white pepper, ground cardamom, and coriander stems.</p>
+              <div class="dish-tags">
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Tandoori Lamb Chops</h3>
+                <span class="menu-item-price">$26.00</span>
+              </div>
+              <p class="menu-item-desc">Prime grass-fed lamb cutlets marinated in raw green papaya, freshly grated nutmeg, and black tellicherry pepper, charred to medium.</p>
+              <div class="dish-tags">
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+                <span class="badge badge-spicy">🌶️ Spicy</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Tandoori Gobi &amp; Cremini Platter</h3>
+                <span class="menu-item-price">$16.00</span>
+              </div>
+              <p class="menu-item-desc">Whole roasted cauliflower florets and plump cremini mushrooms glazed with turmeric-chili rub and cold-pressed mustard oil.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+                <span class="badge badge-vegan">VG &bull; Vegan</span>
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CATEGORY 4: BREADS -->
+        <div class="menu-category-section" data-category="breads" id="category-breads">
+          <h2 class="category-title">
+            <span>Handmade Breads (Naan &amp; Roti)</span>
+            <span class="category-count">6 items</span>
+          </h2>
+          <div class="menu-items-grid">
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Charred Garlic &amp; Cilantro Naan</h3>
+                <span class="menu-item-price">$4.50</span>
+              </div>
+              <p class="menu-item-desc">Pillowy leavened flatbread brushed with oven-roasted garlic butter and hand-chopped fresh cilantro leaves.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Classic Butter Naan</h3>
+                <span class="menu-item-price">$4.00</span>
+              </div>
+              <p class="menu-item-desc">Traditional leavened dough baked against scorching clay walls, brushed with golden sweet-cream butter.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Truffle &amp; Rosemary Naan</h3>
+                <span class="menu-item-price">$6.50</span>
+              </div>
+              <p class="menu-item-desc">Our modern signature: delicate naan finished with white truffle oil, sea salt flakes, and fresh chopped rosemary.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Peshawari Sweet Naan</h3>
+                <span class="menu-item-price">$5.50</span>
+              </div>
+              <p class="menu-item-desc">Stuffed with a rich mixture of crushed almonds, golden sultanas, roasted pistachios, and fresh grated coconut.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Lachha Paratha</h3>
+                <span class="menu-item-price">$4.50</span>
+              </div>
+              <p class="menu-item-desc">Whole wheat multi-layered spiral bread crisped with flaky layers and toasted carom ajwain seeds.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Tandoori Roti</h3>
+                <span class="menu-item-price">$3.50</span>
+              </div>
+              <p class="menu-item-desc">Wholesome stone-ground wheat bread baked crisp on the tandoor walls without butter.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+                <span class="badge badge-vegan">VG &bull; Vegan</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CATEGORY 5: RICE & BIRYANI -->
+        <div class="menu-category-section" data-category="biryani" id="category-biryani">
+          <h2 class="category-title">
+            <span>Rice &amp; Dum Biryani</span>
+            <span class="category-count">5 items</span>
+          </h2>
+          <div class="menu-items-grid">
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Hyderabadi Lamb Dum Biryani</h3>
+                <span class="menu-item-price">$21.00</span>
+              </div>
+              <p class="menu-item-desc">Aged basmati rice sealed with marinated pasture-raised lamb, saffron milk, mint, and fried shallots. Served with burani raita and salan.</p>
+              <div class="dish-tags">
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+                <span class="badge badge-spicy">🌶️ Medium Spicy</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Royal Chicken Dum Biryani</h3>
+                <span class="menu-item-price">$19.00</span>
+              </div>
+              <p class="menu-item-desc">Boneless chicken steeped in green chilies and whole spices, slow-steamed under a dough seal with long-grain Himalayan rice.</p>
+              <div class="dish-tags">
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Subz Paneer Dum Biryani</h3>
+                <span class="menu-item-price">$17.50</span>
+              </div>
+              <p class="menu-item-desc">Seasonal carrots, sweet peas, French beans, and charred artisan paneer layered with fragrant saffron rice and caramelized onions.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Wild Mushroom &amp; Pea Pulao</h3>
+                <span class="menu-item-price">$13.50</span>
+              </div>
+              <p class="menu-item-desc">Delicate basmati pilaf simmered with whole star anise, roasted cremini mushrooms, sweet garden peas, and coriander.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+                <span class="badge badge-vegan">VG &bull; Vegan</span>
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Aged Saffron Jeera Rice</h3>
+                <span class="menu-item-price">$6.00</span>
+              </div>
+              <p class="menu-item-desc">Steamed Himalayan basmati tempered with toasted royal cumin seeds and steeped with authentic Kashmiri saffron threads.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+                <span class="badge badge-vegan">VG &bull; Vegan</span>
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CATEGORY 6: DESSERTS -->
+        <div class="menu-category-section" data-category="desserts" id="category-desserts">
+          <h2 class="category-title">
+            <span>Artisan Desserts</span>
+            <span class="category-count">5 items</span>
+          </h2>
+          <div class="menu-items-grid">
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Cardamom Rose Gulab Jamun</h3>
+                <span class="menu-item-price">$8.50</span>
+              </div>
+              <p class="menu-item-desc">Warm golden milk dumplings infused with green cardamom syrup, paired with slivered pistachios and silver leaf.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Shahi Kesar Phirni</h3>
+                <span class="menu-item-price">$8.00</span>
+              </div>
+              <p class="menu-item-desc">Velvety ground rice pudding slow-simmered with whole milk, Kashmiri saffron, crushed cardamom, and toasted almond slivers in a chilled earthen bowl.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Artisan Alphonso Mango Kulfi</h3>
+                <span class="menu-item-price">$7.50</span>
+              </div>
+              <p class="menu-item-desc">Traditional slow-reduced Indian ice cream made from sweet Alphonso mangoes, heavy cream, and aromatic green cardamom.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Gajar Ka Halwa Tart</h3>
+                <span class="menu-item-price">$9.00</span>
+              </div>
+              <p class="menu-item-desc">Slow-caramelized red heirloom carrots in whole milk and ghee, set inside a toasted almond flour crust with sweet clotted malai.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Warm Moong Dal Halwa</h3>
+                <span class="menu-item-price">$8.50</span>
+              </div>
+              <p class="menu-item-desc">Heirloom winter specialty of golden yellow lentils slowly roasted in clarified butter with saffron milk and toasted cashews.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CATEGORY 7: DRINKS -->
+        <div class="menu-category-section" data-category="drinks" id="category-drinks">
+          <h2 class="category-title">
+            <span>Drinks &amp; Beverages</span>
+            <span class="category-count">6 items</span>
+          </h2>
+          <div class="menu-items-grid">
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Cardamom Mango Lassi</h3>
+                <span class="menu-item-price">$5.50</span>
+              </div>
+              <p class="menu-item-desc">Rich whole-milk organic yogurt churned with sweet Alphonso mango pulp and freshly ground cardamom.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Salted Cumin Chaas</h3>
+                <span class="menu-item-price">$4.50</span>
+              </div>
+              <p class="menu-item-desc">Traditional buttermilk cooler spiced with roasted royal cumin, Himalayan pink salt, ginger juice, and chopped garden mint.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">House Masala Chai (Pot for Two)</h3>
+                <span class="menu-item-price">$6.00</span>
+              </div>
+              <p class="menu-item-desc">Assam black CTC tea simmered with whole milk, fresh bruised ginger, green cardamom pods, cinnamon quills, and cloves.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Rose Petal &amp; Sabja Cooler</h3>
+                <span class="menu-item-price">$5.00</span>
+              </div>
+              <p class="menu-item-desc">Organic Damascus rose essence, soaked basil seeds, fresh Persian lime juice, and sparkling mineral water on ice.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+                <span class="badge badge-vegan">VG &bull; Vegan</span>
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Austin Fresh Nimbu Soda</h3>
+                <span class="menu-item-price">$4.50</span>
+              </div>
+              <p class="menu-item-desc">Freshly squeezed lime juice, rock salt, organic cane syrup, and sparkling soda. Available sweet, salted, or mixed.</p>
+              <div class="dish-tags">
+                <span class="badge badge-veg">V &bull; Vegetarian</span>
+                <span class="badge badge-vegan">VG &bull; Vegan</span>
+                <span class="badge badge-gf">GF &bull; Gluten-Free</span>
+              </div>
+            </div>
+
+            <div class="menu-item-row">
+              <div class="menu-item-header">
+                <h3 class="menu-item-name">Indian Craft Beers &amp; Ciders</h3>
+                <span class="menu-item-price">$7.50</span>
+              </div>
+              <p class="menu-item-desc">Rotating bottles of premium Indian pale ales, crisp 1947 lager, Kingfisher, and local Austin dry ciders.</p>
+              <div class="dish-tags">
+                <span class="badge badge-vegan">VG &bull; Vegan</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Bottom Menu CTA Banner -->
+    <section class="section section-tint" style="padding: 3.5rem 0; text-align: center;">
+      <div class="container">
+        <h2>Ready for an Unforgettable Meal?</h2>
+        <p class="section-desc" style="margin: 0.5rem auto 1.5rem auto;">Book your table in advance or order takeout directly through our kitchen.</p>
+        <div style="display:flex; justify-content:center; gap:1rem; flex-wrap:wrap;">
+          <a href="contact.html#reserve" class="btn btn-primary">Reserve a table</a>
+          <a href="tel:+15125550194" class="btn btn-secondary">Call (512) 555-0194</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo" aria-label="Masala Lane Kitchen">
+            <svg class="brand-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 2c1.5 2 3.5 3.5 3.5 6a3.5 3.5 0 0 1-7 0c0-2.5 2-4 3.5-6z"></path>
+              <path d="M5 14a7 7 0 0 0 14 0"></path>
+              <path d="M12 14v7"></path>
+              <path d="M8 21h8"></path>
+            </svg>
+            <div class="brand-text">
+              <span class="brand-name" style="color:#FFFFFF;">Masala Lane</span>
+              <span class="brand-sub">Kitchen &bull; Austin, TX</span>
+            </div>
+          </a>
+          <p>Slow-simmered regional Indian flavors, clay-oven tandoor craft, and fresh stone-ground spices on South Congress in Austin, Texas.</p>
+          <div class="social-links" aria-label="Social Media Links">
+            <a href="#" class="social-icon-btn" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+            </a>
+            <a href="#" class="social-icon-btn" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+              </svg>
+            </a>
+            <a href="#" class="social-icon-btn" aria-label="Yelp">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <p class="footer-title">Navigation</p>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Full Menu</a></li>
+            <li><a href="about.html">About &amp; Story</a></li>
+            <li><a href="contact.html#reserve">Reservations</a></li>
+            <li><a href="contact.html#catering">Catering Inquiry</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="footer-title">Service Hours</p>
+          <div class="footer-hours-list">
+            <p><strong>Mon &ndash; Thu:</strong><br>11:30 AM &ndash; 2:30 PM<br>5:00 PM &ndash; 9:30 PM</p>
+            <p style="margin-top:0.4rem;"><strong>Fri &ndash; Sat:</strong><br>11:30 AM &ndash; 10:30 PM</p>
+            <p style="margin-top:0.4rem;"><strong>Sunday:</strong><br>12:00 PM &ndash; 9:00 PM</p>
+          </div>
+        </div>
+
+        <div>
+          <p class="footer-title">Find Us</p>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>1408 South Congress Ave<br>Austin, TX 78704</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <a href="tel:+15125550194" style="color:#FFFFFF; font-weight:600;">(512) 555-0194</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <a href="mailto:hello@masalalanekitchen.com" style="color:#D6CCC0;">hello@masalalanekitchen.com</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Masala Lane Kitchen. All rights reserved.</p>
+        <p class="agency-credit">Website by <a href="#" target="_blank" rel="noopener">Hector Tech Labs</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
